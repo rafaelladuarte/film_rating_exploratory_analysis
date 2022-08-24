@@ -9,6 +9,6 @@
 </p>
 
 <p align="center">
-<img width='400px'  src='images/imbd.jpg'/>
+<img width='400px'  src='imbd.jpg'/>
 </p>
 
