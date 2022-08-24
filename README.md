@@ -1,4 +1,4 @@
-# Projeto Análise Exploratória - Film Rating
+# Projeto Análise Exploratória - Classificação de Filmes da IMBd
 
 <p align="center">
 
