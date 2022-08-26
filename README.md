@@ -9,6 +9,6 @@
 </p>
 
 <p align="center">
-<img width='400px'  src='imbd.jpg'/>
+<img width='400px'  src='https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/images/imbd.jpg'/>
 </p>
 
