@@ -24,11 +24,11 @@ Repositório dedicado aos meus estudos com a linguagem de programação python e
 * IMBd: conhecida como Internet Movie Database, é uma base de dados online de informação sobre cinema TV, música e games, hoje pertencente à Amazon.Nesta base há cerca de 100836 registros referente as votações dos filmes e 9742 registros na base referentes aos filmes.
 * TMBd: conhecida como The Movie Database, é uma base de dados grátis e de código aberto, sobre filmes e seriados, criado por Travis Bell em 2008. Atualizado constantemente através do apoio da comunidade. Inicialmente, era apenas uma base de dados sobre filmes, mas em 2013 foi adicionada a seção de séries. Nesta base há cerca de 4803 registros referentes aos filmes e votações.
 
-Sendo assim,após o download das bases (aqui)[https://github.com/rafaelladuarte/film_rating_exploratory_analysis/tree/main/Dados], realizei o tratamento e em seguida uma analise descritiva e exploratória dos dados no Jupyter Notebook, na qual podem ser vizualidos em:
-* (Notebook IMBd)[https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/analysis_imbd.ipynb]
-* (Notebook TMBd)[https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/analysis_tmdb.ipynb]
+Sendo assim,após o download das bases [aqui](https://github.com/rafaelladuarte/film_rating_exploratory_analysis/tree/main/Dados), realizei o tratamento e em seguida uma analise descritiva e exploratória dos dados no Jupyter Notebook, na qual podem ser vizualidos em:
+* [Notebook IMBd](https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/analysis_imbd.ipynb)
+* [Notebook TMBd](https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/analysis_tmdb.ipynb)
 
 Além disso, com as bases tratadas elaborei um relatório descritivo com Streamlit e um dashboard interativo no Power Bi com as principais observações e conclusões tiradas no estudo, na qual podem ser vizualidos em:
-* (Relatório)[]
-* (Dashboards)[]
+* [Relatório]()
+* [Dashboards]()
 
