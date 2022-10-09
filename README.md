@@ -1,4 +1,4 @@
-# Projeto Análise Exploratória - Classificação de Filmes da IMBd
+# Projeto Análise Exploratória - Classificação de Filmes
 
 <p align="center">
 
