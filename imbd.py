@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 class Imbd():
     def __init__(self):
-        path_imbd = "https://raw.githubusercontent.com/rafaelladuarte/film_rating_exploratory_analysis/main/Dados/imbd_dataset_dashboard.csv"
+        path_imbd = "Dados/tmbd_dataset_dashboard.csv"
         self.df_imbd = pd.read_csv(path_imbd)
 
     def plot_movie_genre_imbd(self):

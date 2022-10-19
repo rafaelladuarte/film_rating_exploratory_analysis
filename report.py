@@ -54,19 +54,31 @@ with row1_1:
 ################ ################ ################ 
 
 ################ IMBD
-
 row4_spacer1, row4_1, row4_spacer2 = st.columns((.2, 7.1, .2))
 with row4_1:
-    st.subheader('Análise por Genêro')
+    st.subheader('IMBd')
 row5_spacer1, row5_1, row5_spacer2, row5_2, row5_spacer3  = st.columns((.2, 2.3, .4, 4.4, .2))
 with row5_1:
     st.markdown('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum')   
-    plot_movie_genre = st.selectbox("Selecione a Base de dados:", ('IMBd','TMBd')) 
+    plot_movie_imbd = st.selectbox("Selecione", ('Genre IMBd','Decada IMBd')) 
 with row5_2:
-    if plot_movie_genre == 'IMDb':
+    if plot_movie_imbd == 'Genre IMBd':
         imbd.plot_movie_genre_imbd()
-    elif plot_movie_genre == 'TMDb':
-        tmbd.plot_movie_genre_tmbd()
+    elif plot_movie_imbd == 'Decada IMBd':
+        imbd.plot_movie_genre_imbd()
 
 ################ TMBD
+
+row6_spacer1, row6_1, row6_spacer2 = st.columns((.2, 7.1, .2))
+with row6_1:
+    st.subheader('TMBd')
+row7_spacer1, row7_1, row7_spacer2, row7_2, row7_spacer3  = st.columns((.2, 2.3, .4, 4.4, .2))
+with row7_1:
+    st.markdown('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum')   
+    plot_movie_tmbd = st.selectbox("Selecione", ('Genre TMBd','Decada TMBd')) 
+with row7_2:
+    if plot_movie_tmbd == 'Genre TMBd':
+        tmbd.plot_movie_genre_tmbd()
+    elif plot_movie_tmbd == 'Decada TMBd':
+        tmbd.plot_movie_genre_tmbd()
 
