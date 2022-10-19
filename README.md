@@ -29,6 +29,6 @@ Sendo assim,após o download das bases [aqui](https://github.com/rafaelladuarte/
 * [Notebook TMBd](https://github.com/rafaelladuarte/film_rating_exploratory_analysis/blob/main/analysis_tmdb.ipynb)
 
 Além disso, com as bases tratadas elaborei um relatório descritivo com Streamlit e um dashboard interativo no Power Bi com as principais observações e conclusões tiradas no estudo, na qual podem ser vizualidos em:
-* [Relatório]()
+* [Relatório](https://rafaelladuarte-film-rating-exploratory-analysis-report-dfven6.streamlitapp.com/)
 * [Dashboards]()
 
